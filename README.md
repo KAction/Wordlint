@@ -12,6 +12,8 @@ a minimum word length for matches.
 Filters are available to remove punctuation, capitalization, and/or a
 user-defined list of words from the list of potential matches.
 
+foo
+
 Various modes exist for data output, which is machine-readable by default with
 column-based formatting. Results may be sorted by alphabetically by word, by
 position (line number), or by intervening distance between matches; and may be
@@ -22,7 +24,6 @@ editors.
 #Installation
 
 
-Following haskell convention, run 
 
 `cabal update && cabal install wordlint`
 
